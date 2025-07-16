@@ -1,0 +1,10 @@
+{
+	"model": "deepseek-ai/DeepSeek-R1-0528",
+	"provider": "nebius",
+	"servers": [
+		{
+			"type": "http",
+			"url": "http://localhost:8000/weather/mcp"
+		}
+	]
+}
