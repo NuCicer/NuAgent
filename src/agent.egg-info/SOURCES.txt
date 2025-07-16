@@ -1,7 +1,6 @@
 README.md
 pyproject.toml
 src/__init__.py
-src/app.py
 src/agent.egg-info/PKG-INFO
 src/agent.egg-info/SOURCES.txt
 src/agent.egg-info/dependency_links.txt
