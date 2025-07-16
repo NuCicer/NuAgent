@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: agent
+Version: 0.1.0
+Summary: Main chat agent
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: gradio>=5.36.2
+Requires-Dist: huggingface-hub[mcp]>=0.32.0
+Requires-Dist: langchain-mcp-adapters>=0.1.9
+Requires-Dist: langchain-ollama>=0.3.4
+Requires-Dist: langgraph>=0.5.2
+Requires-Dist: langgraph-api>=0.2.92
+Requires-Dist: langgraph-cli[inmem]>=0.3.3
+Requires-Dist: langgraph-sdk>=0.1.72

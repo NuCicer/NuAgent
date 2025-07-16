@@ -1,0 +1,8 @@
+gradio>=5.36.2
+huggingface-hub[mcp]>=0.32.0
+langchain-mcp-adapters>=0.1.9
+langchain-ollama>=0.3.4
+langgraph>=0.5.2
+langgraph-api>=0.2.92
+langgraph-cli[inmem]>=0.3.3
+langgraph-sdk>=0.1.72
