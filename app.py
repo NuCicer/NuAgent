@@ -2,14 +2,13 @@ import uuid
 import gradio as gr
 from src.chat_agent import graph
 
-random_id = str(uuid.uuid4())
-config = {"configurable": {"thread_id": random_id}}
+thread_id = str(uuid.uuid4())
+config = {"configurable": {"thread_id": thread_id}}
 
 
 def reset_memory():
-    global config
-    random_id = str(uuid.uuid4())
-    config = {"configurable": {"thread_id": random_id}}
+    global thread_id
+    graph.checkpointer.delete_thread(thread_id)
 
 
 async def bot(history):
