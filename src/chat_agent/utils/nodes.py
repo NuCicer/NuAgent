@@ -27,7 +27,8 @@ async def get_async_components():
         {
             "weather": {
                 "url": os.getenv("MCP_SERVER_URL"),
-                "transport": "streamable_http",
+                # "transport": "streamable_http",
+                "transport": "sse",
             }
         }
     )
